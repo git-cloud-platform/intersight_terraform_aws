@@ -32,6 +32,7 @@ resource "aws_instance" "ywjeon_test1" {
     Name = var.tags_var
   }
 }
+/*
 resource "aws_instance" "ywjeon_test2" {
   ami = var.ami_var
   instance_type = var.instance_type_var
@@ -39,6 +40,7 @@ resource "aws_instance" "ywjeon_test2" {
     Name = var.tags_var
   }
 }
+*/
 /*
 resource "aws_instance" "ywjeon_test1" {
   ami = var.ami_var
