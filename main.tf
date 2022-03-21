@@ -32,38 +32,3 @@ resource "aws_instance" "ywjeon_test1" {
     Name = var.tags_var
   }
 }
-/*
-resource "aws_instance" "ywjeon_test2" {
-  ami = var.ami_var
-  instance_type = var.instance_type_var
-  tags = {
-    Name = var.tags_var
-  }
-}
-*/
-/*
-resource "aws_instance" "ywjeon_test1" {
-  ami = var.ami_var
-  instance_type = var.instance_type_var
-  tags = {
-    Name = var.tags_var
-  }
-}
-*/
-/*
-resource "aws_instance" "helloworld3" {
-  ami = var.ami_var
-  instance_type = var.instance_type_var
-  tags = {
-    Name = var.tags_var
-  }
-}
-
-resource "aws_instance" "helloworld4" {
-  ami = var.ami_var
-  instance_type = var.instance_type_var
-  tags = {
-    Name = var.tags_var
-  }
-}
-*/
